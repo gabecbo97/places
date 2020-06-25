@@ -1,7 +1,8 @@
 
-
+import GlobalStyles from '../../styles/globalStyles'
 import React from "react"
 import PropTypes from "prop-types"
+import Menu from '../Menu'
 
 
 
@@ -12,10 +13,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-     Header
+    <GlobalStyles />
+    <Menu />
      
         <main>{children}</main>
-foter      
+   
     </>
   )
 }
