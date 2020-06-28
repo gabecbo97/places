@@ -1,18 +1,22 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
-    description: `MARCENARIA `,
+    description: `Projeto introdutório com React utilizando o Gatsby JS`,
+    siteUrl: 'https://www.example.com',
     author: `@gatsbyjs`,
-    copyright: `© Marcenaria GAM 2020 - Todos os Direitos reservados`,
+    copyright: `© Gabriel Oliveira 2020 - Todos os Direitos reservados`,
     socialMedia:{
-      facebook: 'https://pt-br.facebook.com/geraldoartemoveis',
-      instagram: 'https://www.instagram.com/gammarcenaria/',
+      facebook: 'https://www.facebook.com/cboslash',
+      instagram: 'https://www.instagram.com/gabeoliveira97',
+      github: 'https://github.com/gabecbo97',
+      
     }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,7 +30,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `GDS`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -36,6 +40,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+     `gatsby-plugin-offline`,
   ],
 }

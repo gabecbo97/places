@@ -20,3 +20,13 @@ cursor: pointer;
 &:hover{
     color: gray;
 }`
+
+export const GitIcon = styled(Icons.Github)`
+width: 30px;
+margin-right: 10px;
+color: white;
+cursor: pointer;
+
+&:hover{
+    color: gray;
+}`

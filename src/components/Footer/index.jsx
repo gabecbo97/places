@@ -10,6 +10,7 @@ const Footer = () => {
             socialMedia: {
               facebook,
               instagram,
+              github,
             },
             copyright
           }
@@ -22,6 +23,7 @@ const Footer = () => {
           socialMedia {
             facebook
             instagram
+            github
           }
           copyright
         }
@@ -34,24 +36,35 @@ const Footer = () => {
      <div className="bg-dark">
          <div className="container">
              <div className="row text-white py-4 mt-5">
-                 <div className="col-6">
+                 <div className="col-md-6 mb-3">
                      {description}
                  </div>
-                 <div className="col-6 d-flex justify-content-center aling-items-center">
+                 <div className="col-md-6 d-flex justify-content-center justify-content-md-end aling-items-center">
                      <a href={facebook} target="_blank" rel="nopener noreferrer">
                      <Styled.FacebookIccon/>
                      </a>
                      <a href={instagram} target="_blank" rel="nopener noreferrer">
                          <Styled.InstagramIcon/>
                          </a>
+
+                         <a href={github} target="_blank" rel="nopener noreferrer">
+                         <Styled.GitIcon/>
+                         </a>
+                         
                      
                      
                  </div>
-                 <div className="col-12 d-flex justify-content-center">
-                     {copyright}
-                 </div>
+                 
              </div>
 
+         </div>
+         <div className="container-fluid">
+           <div className="row bg-gray-dark text-white py-3">
+                  <div className="col-12 d-flex justify-content-center">
+                     {copyright}
+                 </div>
+
+           </div>
          </div>
      </div>
     )

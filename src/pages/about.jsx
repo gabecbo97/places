@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Cardv2 from '../components/Cardv2'
+import SEO from "../components/seo"
 
 
 const About = () => {
@@ -8,6 +9,10 @@ const About = () => {
     return(
         
             <Layout> 
+                <SEO
+                title="About"
+                lang="uk"
+                />
                 <div className="container">
                     <div className="row">
                         <div className="col-12 py-4">
@@ -16,7 +21,7 @@ const About = () => {
            
            <div className="container">
                <div className="row">
-                   <div className="col-4">
+                   <div className="col-lg-4 mb-3">
                        <Cardv2 
                        nameImage="image1"
                        titleCard="Card title 1"
@@ -26,7 +31,7 @@ const About = () => {
                        styleDeafult ={true}
                        />
                    </div>
-                   <div className="col-4">
+                   <div className="col-lg-4 mb-3">
                        <Cardv2 
                        nameImage="image2"
                        titleCard="Card Title 2"
@@ -36,7 +41,7 @@ const About = () => {
                        styleDeafult ={false}
                        />
                    </div>
-                   <div className="col-4">
+                   <div className="col-lg-4 mb-3">
                        <Cardv2 
                        nameImage="image3"
                        titleCard="Title Card 3"
