@@ -3,7 +3,7 @@ import GlobalStyles from '../../styles/globalStyles'
 import React from "react"
 import PropTypes from "prop-types"
 import Menu from '../Menu'
-
+import Footer from '../Footer'
 
 
 import "./layout.scss"
@@ -15,10 +15,9 @@ const Layout = ({ children }) => {
     <>
     <GlobalStyles />
     <Menu />
-     
-        <main>{children}</main>
-   
-    </>
+             <main>{children}</main>
+    <Footer />
+       </>
   )
 }
 

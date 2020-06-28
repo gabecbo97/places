@@ -1,11 +1,15 @@
-import { Email } from '@styled-icons/material/Email'
+import { Email} from '@styled-icons/material'
 import {Phone} from '@styled-icons/boxicons-solid/Phone'
-import {Location} from '@styled-icons/icomoon/Location'
+import { Instagram }  from '@styled-icons/boxicons-logos/Instagram'
+import { Facebook } from '@styled-icons/entypo-social/Facebook'
+
 
 const Icons ={
     Email,
     Phone,
-    Location
+    
+    Instagram,
+    Facebook
 }
 
 export default Icons

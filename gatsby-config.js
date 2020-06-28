@@ -1,8 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `MARCENARIA `,
     author: `@gatsbyjs`,
+    copyright: `© Marcenaria GAM 2020 - Todos os Direitos reservados`,
+    socialMedia:{
+      facebook: 'https://pt-br.facebook.com/geraldoartemoveis',
+      instagram: 'https://www.instagram.com/gammarcenaria/',
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
