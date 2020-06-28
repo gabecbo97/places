@@ -2,6 +2,7 @@ import React from 'react'
 import * as Styled from '../styles/pages/contactStyles'
 import Layout from '../components/Layout'
 import SEO from "../components/seo"
+import { Github } from 'styled-icons/boxicons-logos'
 
 
 
@@ -32,21 +33,22 @@ const Contact = () => {
           </div>
           <div className="form-group">
             
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="TextArea"></textarea>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
           </div>
           
           <button type="submit" className="btn btn-success mt-3">Send</button>
       </form>
+      <br/>
          </div>
 
          <div className="col-md-6 ">
        <ul class="list-group">
            <li class="list-group-item"> <Styled.EmailWrapper  danger
-           />gabriel@gabeoliveira.dev
+           /> gabriel@gabeoliveira.dev
           </li>
 
-          <li class="list-group-item"> <Styled.PhoneWrapper  danger/>
-          Phone
+          <li class="list-group-item"> <Styled.GitWrapper  danger />
+           <a style={{color:"black"} }href="https://github.com/gabecbo97"> gabecbo97</a>
          </li>
        
       </ul>

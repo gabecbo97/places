@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
-    description: `Projeto introdutório com React utilizando o Gatsby JS`,
+    description: `Projeto introdutório com React utilizando o GatsbyJS`,
     siteUrl: 'https://www.example.com',
     author: `@gatsbyjs`,
     copyright: `© Gabriel Oliveira 2020 - Todos os Direitos reservados`,
