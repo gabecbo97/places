@@ -6,7 +6,7 @@ import Images from '../components/Images'
 const IndexPage = () => (
 
   <Layout>
-    <SEO title="Home" 
+    <SEO title="" 
     description="Welcome"/>
     <div className="container-fluid">
       <div className="row">

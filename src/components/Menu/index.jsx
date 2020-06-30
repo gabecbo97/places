@@ -19,33 +19,30 @@ query {
     
 return (
 
-            <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-                <Link className="navbar-brand" to="/"><Img fixed={logo.childImageSharp.fixed} alt="logo"/> </Link>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item ">
-                        <Link to="/"  activeStyle={{ color: "#9963BA" }} className="nav-link"  activeClassName="active">Home</Link> 
-                    </li>
-                    <li className="nav-item ">
-                        <Link className="nav-link"  to="/about" activeStyle={{ color: "#9963BA" }} activeClassName="active">About</Link> 
-                    </li>
-                    <li className="nav-item ">
-                        <Link className="nav-link"  to="/gallery" activeStyle={{ color: "#9963BA" }}activeClassName="active">Gallery</Link>
-                    </li>
-                    <li className="nav-item ">
-                        <Link className="nav-link"  to="/contact" activeStyle={{ color: "#9963BA" }}activeClassName="active">Contact</Link>
-                    </li>
-                   
-                </ul>
-                
-               </div>
-           
-   
-        </nav>
+
+<nav>
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+
+  <div class="nav-wrapper">
+  <li><Link className="navbar-brand" to="/"><Img fixed={logo.childImageSharp.fixed} alt="logo"/> </Link></li>
+    <ul class="right hide-on-med-and-down">
+   <li><Link className="nav-link"  to="/about" activeStyle={{ color: "#9963BA" }} activeClassName="active">About</Link> </li> 
+      <li><a href="badges.html">Components</a></li>
+    
+      <li><Link data-target="dropdown1" className="nav-link"  to="/gallery" activeStyle={{ color: "#9963BA" }}activeClassName="active">Gallery</Link></li>
+    </ul>
+  </div>
+</nav>
+
+  
+
+            
 )
 }
 

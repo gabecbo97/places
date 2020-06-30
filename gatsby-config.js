@@ -1,15 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Projeto introdutório com React utilizando o GatsbyJS`,
-    siteUrl: 'https://www.example.com',
-    author: `@gatsbyjs`,
-    copyright: `© Gabriel Oliveira 2020 - Todos os Direitos reservados`,
+    title: `GAM Marcenaria`,
+    description: `Moveis Planejados com Inovação & Design`,
+    siteUrl: 'https://gmarcenaria.com',
+    author: `@gabeoliveira`,
+    copyright: `©GAM 2020 - Todos os Direitos reservados`,
     socialMedia:{
-      facebook: 'https://www.facebook.com/cboslash',
-      instagram: 'https://www.instagram.com/gabeoliveira97',
+      facebook: 'https://pt-br.facebook.com/geraldoartemoveis',
+      instagram: 'https://www.instagram.com/gammarcenaria/',
       github: 'https://github.com/gabecbo97',
-      
     }
   },
   plugins: [
@@ -35,7 +34,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
