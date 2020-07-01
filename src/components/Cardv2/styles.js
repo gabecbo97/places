@@ -8,6 +8,9 @@ h5{
 p{
     color: #fff2a8;
 }
+.card{
+    border-radiums: 3mm;
+}
 
 ${props =>
 props.primary &&

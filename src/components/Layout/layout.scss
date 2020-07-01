@@ -1,0 +1,29 @@
+#banner{
+    background-image: url("../../images/new-york.svg");
+    height: 600px;
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom; ;
+    border-bottom: solid 3px black;
+    
+}
+#cards{
+    border-bottom: 5px solid black;
+    background: linear-gradient(180deg, rgba(251,252,255,1) 51%, rgba(103,126,249,1) 51%);
+    justify-content: center;
+    
+  
+}
+
+#cards img{
+    max-width: 200px;
+    padding: 20px;
+    align-self: center;
+}
+
+#item{
+    margin-top: 100px;
+    
+   
+}
