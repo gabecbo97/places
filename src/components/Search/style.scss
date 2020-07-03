@@ -85,7 +85,7 @@
  @media (max-width:768px) {
     .search {
        margin-top: 100px;
-        margin-left: -80px;
+        margin-left: -100px;
         width: 180%;
       }
      #bar{
@@ -98,6 +98,9 @@
          padding: 0px 0px 21px ;
          background: transparent;
          
+     }
+     #dropdownMenuButton{
+       display: none;
      }
     
  }

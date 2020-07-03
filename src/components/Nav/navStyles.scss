@@ -1,6 +1,7 @@
 #menu{
     height: 70px;
     padding: 0 60px 0 60px;
+    z-index: 99;
 }
 
 .navbar-dark .navbar-brand{
@@ -51,14 +52,14 @@
         
     }
     #navbarSupportedContent-4{
-        background-color:  black;
+        background-color:  gray;
         opacity: 100%; 
         color: white;
         border-radius: 2mm;
-        margin-top: 115px;
+        
         height: 300;
        
-        position: fixed;
+        
 
 
         
