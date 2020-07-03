@@ -1,8 +1,8 @@
 #menu{
     height: 70px;
     padding: 0 60px 0 60px;
-    z-index: 99;
-    opacity: 100%; 
+    
+    
 }
 
 .navbar-dark .navbar-brand{
@@ -12,7 +12,7 @@
 }
 #navbarSupportedContent-4 ul, li{
     color: gray;
-    opacity: 100%; 
+    
     
 }
 
@@ -55,18 +55,11 @@
     }
     #navbarSupportedContent-4{
         background-color:  gray;
-        opacity: 100%; 
         color: white;
         border-radius: 2mm;
-        
         height: 300;
-       
-        
-
-
-        
-        
-    }
+        z-index: 99;
+        }
     .nav-item i{
         color: white;
         
