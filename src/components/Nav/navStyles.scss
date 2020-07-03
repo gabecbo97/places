@@ -44,7 +44,7 @@
 
 }
 
-@media (max-width:768px) {
+@media only screen and(max-width:990px) {
 
     #menu{
         padding: 20px;
@@ -55,7 +55,10 @@
         opacity: 100%; 
         color: white;
         border-radius: 2mm;
-        margin-top: 30px;
+        margin-top: 115px;
+        height: 300;
+       
+        position: fixed;
 
 
         
