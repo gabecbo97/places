@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `GAM Marcenaria`,
-    description: `Moveis Planejados com Inovação & Design`,
-    siteUrl: 'https://gmarcenaria.com',
+    title: `Your Place`,
+    description: `Find yout new home`,
+    siteUrl: 'https://example.com',
     author: `@gabeoliveira`,
-    copyright: `©GAM 2020 - Todos os Direitos reservados`,
+    copyright: `© Gabriel Oliveira 2020`,
     socialMedia:{
       facebook: 'https://pt-br.facebook.com/geraldoartemoveis',
       instagram: 'https://www.instagram.com/gammarcenaria/',

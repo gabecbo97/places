@@ -30,3 +30,9 @@ cursor: pointer;
 &:hover{
     color: gray;
 }`
+
+export const searchIcon = styled(Icons.Search)`
+color: black;
+padding-top: 10px;
+padding-left: 3px;
+`

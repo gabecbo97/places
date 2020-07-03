@@ -20,28 +20,18 @@ const IndexPage = () => (
         <div className="col-12 py-4 text-center">
           
         <h1 className="text-title"> Find Your <strong>Perfect Place.</strong></h1>
-       <br/>
-      
-        <Search />
+           <Search />
         </div>
       </div>
      
     </div>
     
     </div>
-    <div class="line"></div>
-    
-
-     
+   
 <div className="container-flui" id="cards">
-  
-   
-    <Card />
+      <Card />
            </div>
-    
-   
-   
-  </Layout>
+    </Layout>
 )
 
 export default IndexPage
