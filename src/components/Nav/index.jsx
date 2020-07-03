@@ -10,9 +10,9 @@ const Menu2 = () => {
     return (
 
         
-        <navStyles className="mb-1 navbar navbar-expand-lg navbar-dark info-color md-padding-0" id="menu">
+        <nav className="mb-1 navbar navbar-expand-lg navbar-dark info-color md-padding-0" id="menu">
 
-        <Link className="navbar-brand" to="/"><img src={logo} alt=""/> </Link>
+        <a className="navbar-brand" href="/"><img src={logo} alt=""/> </a>
         <button id="mobile" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
             aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ const Menu2 = () => {
             
             </ul>
         </div>
-        </navStyles >
+        </nav>
 
         
         
