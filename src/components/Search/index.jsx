@@ -7,9 +7,14 @@ import * as Styled from '../Footer/styled'
  const Search = () => {
 
     return (
-
-      <div class="wrap">
+  
+      <div className="container-fluid">
+        <div className="container">
+        <h1 className="text-title"> Find Your <strong>Perfect Place.</strong></h1>
+        <div class="wrap">
+        
    <div class="search">
+   
    <div class="searchButton">
         <i class="fa fa-search" ><Styled.searchIcon/></i>
      </div>
@@ -32,6 +37,10 @@ import * as Styled from '../Footer/styled'
    </div>
 </div>
 
+
+        </div>
+      </div>
+      
     )
 }
 

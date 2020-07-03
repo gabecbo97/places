@@ -19,7 +19,7 @@ const IndexPage = () => (
       
         <div className="col-12 py-4 text-center">
           
-        <h1 className="text-title"> Find Your <strong>Perfect Place.</strong></h1>
+        
            <Search />
         </div>
       </div>
