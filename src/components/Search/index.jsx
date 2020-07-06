@@ -12,7 +12,8 @@ import * as Styled from '../Footer/styled'
         <div className="container">
         <h1 className="text-title"> Find Your <strong>Perfect Place.</strong></h1>
         <div class="wrap">
-        
+
+    <div className="container">   
    <div class="search">
    
    <div class="searchButton">
@@ -35,6 +36,7 @@ import * as Styled from '../Footer/styled'
      </button>
     
    </div>
+   </div> 
 </div>
 
 
