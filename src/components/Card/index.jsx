@@ -9,16 +9,20 @@ import { Link } from "gatsby"
 
 const Card = () => {
     return(
+        <div className="container-fluid">
 
-<div className="container" >
+<div className="container"  >
         <div className="row">
             <div className="col-12 py-4">
                 
                 <h1 className="text-center">Our Services </h1>
                 <p className="text-center"> When it comes and properties, we´re here every step pf the way </p>
+             </div>
+             </div>
              
             <div className="container">
-               <div className="row">
+                <div className="row">
+               
                    <div className="col-lg-4 mb-3" id="item" >
                         <div className="card" >
                         
@@ -52,9 +56,10 @@ const Card = () => {
                     </div>
                 </div>
              </div>
-           </div>
+          
        </div>
-   </div>
+  
+       </div>
    </div>
    </div>
         
