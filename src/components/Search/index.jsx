@@ -18,7 +18,7 @@ import * as Styled from '../Footer/styled'
    <div class="searchButton">
         <i class="fa fa-search" ><Styled.searchIcon/></i>
      </div>
-      <input type="text" class="searchTerm" placeholder="Seacrh for a location..."/>
+      <input type="text" class="searchTerm" placeholder="Search for a location..."/>
       
               <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
