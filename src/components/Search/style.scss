@@ -83,22 +83,15 @@
   }
 
  @media (max-width:768px) {
+  .searchButton-a {
+    margin-right: -10px;
+  }
     .search {
        margin-top: 100px;
         margin-left: -80px;
         width: 180%;
       }
-     #bar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-     }
-     #_bar{
-         max-width:220px ;
-         padding: 0px 0px 21px ;
-         background: transparent;
-         
-     }
+    
      #dropdownMenuButton{
        display: none;
      }
